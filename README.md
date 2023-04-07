@@ -1,0 +1,4 @@
+
+# clipstash
+
+For learning purposes
