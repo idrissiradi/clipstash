@@ -56,11 +56,11 @@ pub struct PasswordRequired {
 
 impl PageContext for PasswordRequired {
     fn template_path(&self) -> &str {
-        "clip"
+        "clip_need_password"
     }
 
     fn title(&self) -> &str {
-        "View Clip!"
+        "Password Required!"
     }
 
     fn parent(&self) -> &str {
